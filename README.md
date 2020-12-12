@@ -19,4 +19,4 @@ Input explanation:
 Output:  
 For every node "u", the cost of the optimal delivery path from "u" to "s".  
 
-An example of valid input (n10_0.in) and expected output (n10_0.out) is provided.
+An example of valid input (n10_0.in) and expected output (n10_0.out) is provided in the repo.
