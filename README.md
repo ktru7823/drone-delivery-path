@@ -8,14 +8,13 @@ Input is taken line-by-line from stdin.
 Input format:  
 ![input](drone-delivery-path/input.PNG)
 
-Note that the provided graph is expected to be a directed acyclic graph.
-
 Input explanation:  
 - Define the number of zones, "n".  
 - Then, provide a list of (non-target) zones, along with their associated drone rate and cooldown.  
 - Then, identify the target zone, "s".  
 - Then, define the number of edges, "m".  
 - Then, provide a list of the edges, along with their associated weights.  
+- Note that the provided graph is expected to be a directed acyclic graph.  
 
 Output:  
 For every node "u", the cost of the optimal delivery path from "u" to "s".  
