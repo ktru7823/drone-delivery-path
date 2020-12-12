@@ -11,11 +11,11 @@ Input format:
 Note that the provided graph is expected to be a directed acyclic graph.
 
 Input explanation:  
-Define the number of zones, "n".  
-Then, provide a list of (non-target) zones, along with their associated drone rate and cooldown.  
-Then, identify the target zone, "s".  
-Then, define the number of edges, "m".  
-Then, provide a list of the edges, along with their associated weights.  
+- Define the number of zones, "n".  
+- Then, provide a list of (non-target) zones, along with their associated drone rate and cooldown.  
+- Then, identify the target zone, "s".  
+- Then, define the number of edges, "m".  
+- Then, provide a list of the edges, along with their associated weights.  
 
 Output:  
 For every node "u", the cost of the optimal delivery path from "u" to "s".  
